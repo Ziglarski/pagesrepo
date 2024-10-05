@@ -33,7 +33,7 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">Contact</h1>
-							<p>Want to get started? Then drop me a message!</p>
+							<p>Want to get started? I'd be glad to hear from you.</p>
 
 							<div class="col-6 col-12-medium">
 								<ul class="actions stacked">
@@ -41,8 +41,31 @@
 									<li><a href="linkedin.com/in/erik-ziglarski" class="button small fit">Connect with me on LinkedIn</a></li>
 								</ul>
 
+							<h2>Contact Form</h2>
+							<form method="POST" action="https://formspree.io/f/mbljrowg"> <!-- API for contact form -->
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><button type="submit" class="button submit">Send Message</a></li>
+								</ul>
+							</form>	
+
 						</div>
 					</section>
+
+					
 
 			</div>
 
