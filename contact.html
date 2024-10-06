@@ -16,7 +16,7 @@
 		<meta name="subject" content="Homepage">
 		<meta name="rating" content="General">
 		<meta name="robots" content="index,follow">
-		<link rel="canonical" href="https://ziglarski.de" />
+		<link rel="canonical" href="https://ziglarski.de/contact" />
 
 		<meta property="og:type" content="website" />
 		<meta property="og:locale" content="de_DE" />
@@ -97,21 +97,23 @@
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="5"></textarea>
+										<textarea name="message" id="message" rows="5" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><a><button type="submit" class="button submit" aria-label="Send Message">Send Message</a></li>
+									<li>
+										<button type="submit" class="button submit" aria-label="Send Message">Send Message</button>
+									</li>
 								</ul>
-							</form>	
+							</form>
 
 						</div>
 					</section>
