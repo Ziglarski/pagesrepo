@@ -15,4 +15,4 @@ Disallow: /wp-admin/
 Disallow: /noindex/
 
 # Sitemap
-Sitemap: https://ziglarski.de
+Sitemap: https://ziglarski.de/sitemap.xml
