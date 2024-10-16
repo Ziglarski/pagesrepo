@@ -1,14 +1,14 @@
-# Allow Bots
-User-agent: Googlebot
-User-agent: Bingbot
-User-agent: DuckDuckBot
-User-agent: Yahoo! Slurp
-User-agent: LinkedInBot
-User-agent: URLMetriken 
-User-agent: ia_archiver 
-
-# Disallow Bots and specific content
+# Allow all bots by default
 User-agent: *
+Allow: /
+
+# Disallow specific crawlers
+User-agent: Baiduspider
+User-agent: Yandex
+User-agent: Sogou
+User-agent: 360Spider
+User-agent: Naver
+User-agent: Daum
 Disallow: /
 
 # Disallow specific content for all
