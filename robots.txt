@@ -1,18 +1,25 @@
-# Allow
-User-agent: *
+# Allow Bots
 User-agent: Googlebot
 User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Yahoo! Slurp
 User-agent: LinkedInBot
 User-agent: URLMetriken 
 User-agent: ia_archiver 
 
-# Disallow
+# Disallow Bots and specific content
 User-agent: *
+Disallow: /
+
+# Disallow specific content for all
 Disallow: /private/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /wp-admin/
 Disallow: /noindex/
+Disallow: /comments/
+Disallow: /trackback/
+Disallow: /feed/
 
 # Sitemap
 Sitemap: https://ziglarski.de/sitemap.xml
