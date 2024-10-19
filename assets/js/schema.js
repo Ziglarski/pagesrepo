@@ -13,7 +13,7 @@ const schemaData = {
        "addressLocality": "Düsseldorf",
        "addressRegion": "North-Rhine Westfalia",
        "postalCode": "40221",
-       "addressCountry": "Germany"
+       "addressCountry": "DE"
     },
     "geo": {
        "@type": "GeoCoordinates",
