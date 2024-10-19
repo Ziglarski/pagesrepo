@@ -34,7 +34,6 @@ This website provides:
 - Information on services offered.
 - A contact form for inquiries.
 - Links to social media profiles.
-- Blog updates and industry insights.
 
 ## SEO Optimizations
 This website includes various SEO optimizations:
