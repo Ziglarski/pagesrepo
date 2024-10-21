@@ -33,7 +33,7 @@ const schemaData = {
     ] 
   };
   
-  // Füge das Schema-Markup in das <body>-Tag ein
+  // Add Schema into head
 const script = document.createElement('script');
 script.type = 'application/ld+json';
 script.text = JSON.stringify(schemaData);
